@@ -2,7 +2,6 @@ pluginManagement {
     repositories {
         google()
         mavenCentral()
-        maven { url 'https://maven.rosan.dev/releases' }
         gradlePluginPortal()
     }
 }
@@ -11,7 +10,6 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        maven { url 'https://maven.rosan.dev/releases' }
     }
 }
 rootProject.name = "DnsClear"
